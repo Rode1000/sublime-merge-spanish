@@ -1,6 +1,6 @@
 [
 	{
-		"caption": "语法",
+		"caption": "Sintaxis",
 		"children": [ 
 			{ "command": "$file_types" } 
 		]

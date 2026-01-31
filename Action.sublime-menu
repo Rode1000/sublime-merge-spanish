@@ -1,6 +1,6 @@
 [
 	{
-		"caption": "创建分支…",
+		"caption": "Crear rama…",
 		"command": "show_command_palette",
 		"args":
 		{
@@ -8,7 +8,7 @@
 		}
 	},
 	{
-		"caption": "合并分支…",
+		"caption": "Fusionar rama…",
 		"command": "show_command_palette",
 		"args":
 		{
@@ -16,21 +16,21 @@
 		}
 	},
 	{
-		"caption": "复制仓库路径",
+		"caption": "Copiar ruta del repositorio",
 		"command": "copy_to_clipboard",
 		"args": {"text": "$native_working_dir"}
 	},
 	{ "caption": "-" },
-	{ "command": "git_undo", "mnemonic": "U", "caption": "撤销Git操作" },
-	{ "command": "git_redo", "mnemonic": "R", "caption": "重做Git操作" },
+	{ "command": "git_undo", "mnemonic": "U", "caption": "Deshacer operación de Git" },
+	{ "command": "git_redo", "mnemonic": "R", "caption": "Rehacer operación de Git" },
 	{ "caption": "-" },
 	{
-		"caption": "打开包含文件夹…",
+		"caption": "Abrir carpeta contenedora…",
 		"command": "open_dir",
 		"args": { "dir": "$working_dir" }
 	},
 	{
-		"caption": "在Sublime Text中打开仓库…",
+		"caption": "Abrir repositorio en Sublime Text…",
 		"command": "open_dir_in_sublime_text",
 		"args": { "dir": "$working_dir" }
 	},

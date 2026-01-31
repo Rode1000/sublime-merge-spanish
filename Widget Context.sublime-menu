@@ -1,9 +1,9 @@
 [
-	{ "command": "open_context_url", "caption": "打开网址" },
+	{ "command": "open_context_url", "caption": "Abrir URL" },
 	{ "caption": "-" },
-	{ "command": "cut",  "caption": "剪切"  },
-	{ "command": "copy" ,  "caption": "复制"},
-	{ "command": "paste", "caption": "粘贴"  },
+	{ "command": "cut",  "caption": "Cortar"  },
+	{ "command": "copy" ,  "caption": "Copiar"},
+	{ "command": "paste", "caption": "Pegar"  },
 	{ "caption": "-" },
-	{ "command": "select_all", "caption": "全部选择"  }
+	{ "command": "select_all", "caption": "Seleccionar todo"  }
 ]

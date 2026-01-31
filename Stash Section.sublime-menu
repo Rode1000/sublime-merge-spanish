@@ -1,6 +1,6 @@
 [
     {
-        "caption": "清除所有暂存",
+        "caption": "Limpiar todo el resguardo (Stash)",
         "command": "clear_stashes"
     }
 ]

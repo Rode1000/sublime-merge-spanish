@@ -2,21 +2,21 @@
 	{
 		"command": "stage_file",
 		"args": { "path": "$path" },
-		"caption": "暂存文件"
+		"caption": "Preparar archivo (Stage)"
 	},
 	{
 		"command": "discard_file",
 		"args": { "path": "$path" },
-		"caption": "丢弃文件更改"
+		"caption": "Descartar cambios del archivo"
 	},
 	{
 		"command": "lfs_track_file",
 		"args": { "path": "$path" },
-		"caption": "LFS 跟踪文件"
+		"caption": "Seguir archivo con LFS"
 	},
 	{
 		"command": "create_patch",
 		"args": { "path": "$path" },
-		"caption": "创建补丁"
+		"caption": "Crear parche"
 	}
 ]

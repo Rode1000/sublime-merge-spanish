@@ -1,119 +1,119 @@
 [
 	{
-		"caption": "复制 '$short_commit…'",
+		"caption": "Copiar '$short_commit…'",
 		"command": "copy_to_clipboard",
 		"args": {"text": "$commit"}
 	},
 	{
-		"caption": "查看树状图",
-		"command": "view_tree",
+		"caption": "Ver árbol",
+		"command": "view_tree"
 	},
 	{
-		"caption": "-",
+		"caption": "-"
 	},
 	{
-		"caption": "检出提交",
+		"caption": "Checkout commit",
 		"command": "checkout_branch", "args": {"branch": "$commit"}
 	},
 	{
-		"caption": "在提交处创建分支",
+		"caption": "Crear rama en el commit",
 		"command": "show_command_palette", "args":
 		{
 			"command": "create_branch",
-			"args": { "from": "$commit" },
+			"args": { "from": "$commit" }
 		}
 	},
 	{
-		"caption": "在提交处创建标签",
+		"caption": "Crear etiqueta en el commit",
 		"command": "show_command_palette",
 		"args":
 		{
 			"command": "create_tag",
-			"args": { "commit": "$commit" },
-		},
+			"args": { "commit": "$commit" }
+		}
 	},
 	{
-		"caption": "编辑提交",
+		"caption": "Editar commit",
 		"id": "edit",
 		"children":
 		[
 			{
-				"caption": "编辑提交消息",
-				"command": "edit_commit",
+				"caption": "Editar mensaje de confirmación",
+				"command": "edit_commit"
 			},
 			{
-				"caption": "编辑提交内容",
+				"caption": "Editar contenido del commit",
 				"command": "edit_commit_contents",
-				"args": { "commit": "$commit" },
+				"args": { "commit": "$commit" }
 			},
 			{
-				"caption": "与父提交压缩",
-				"command": "squash_commit",
+				"caption": "Comprimir (squash) con el commit anterior",
+				"command": "squash_commit"
 			},
 			{
-				"caption": "压缩选定提交",
-				"command": "squash_commits",
+				"caption": "Comprimir (squash) los commits seleccionados",
+				"command": "squash_commits"
 			},
 			{
-				"caption": "压缩选定的提交，忽略新的提交信息（修正）",
-				"command": "fixup_commits",
+				"caption": "Corregir (fixup) los commits seleccionados",
+				"command": "fixup_commits"
 			},
 			{
-				"caption": "提交上移",
+				"caption": "Mover commit hacia arriba",
 				"command": "move_commit",
-				"args": { "commit": "$commit", "down": false },
+				"args": { "commit": "$commit", "down": false }
 			},
 			{
-				"caption": "提交下移",
+				"caption": "Mover commit hacia abajo",
 				"command": "move_commit",
-				"args": { "commit": "$commit", "down": true },
+				"args": { "commit": "$commit", "down": true }
 			},
 			{
-				"caption": "删除选定提交",
-				"command": "drop_commits",
-			},
+				"caption": "Eliminar commits seleccionados",
+				"command": "drop_commits"
+			}
 		]
 	},
-	{ "caption": "撤销提交", "command": "revert_commit" },
+	{ "caption": "Revertir commit", "command": "revert_commit" },
 	{
 		"command": "show_command_palette",
-		"caption": "拣选提交",
+		"caption": "Cherry-pick commit",
 		"args":
 		{
-			"command": "cherry_pick",
+			"command": "cherry_pick"
 		}
 	},
 	{
 		"command": "rebase_branch",
-		"caption": "变基提交",
+		"caption": "Rebasar commit",
 		"args": {"commit": "$commit"}
 	},
 	{
-		"caption": "将 $head_ref 重置到此提交",
+		"caption": "Restablecer $head_ref a este commit",
 		"id": "reset",
 		"children":
 		[
 			{
-				"caption": "Soft - 保留索引和工作目录，差异显示为已暂存",
+				"caption": "Soft: Mantiene el índice y el directorio de trabajo (cambios preparados)",
 				"command": "reset",
 				"args": {"commit": "$commit", "mode": "soft"}
 			},
 			{
 
-				"caption": "Mixed (默认) - 保留工作目录，差异显示为修改",
+				"caption": "Mixed (predeterminado): Mantiene el directorio de trabajo, el índice se restablece",
 				"command": "reset",
 				"args": {"commit": "$commit", "mode": "mixed"}
 			},
 			{
-				"caption": "Hard - 重置索引和工作目录，丢弃所有本地更改",
+				"caption": "Hard: Restablece el índice y el directorio de trabajo (descarta todos los cambios)",
 				"command": "reset",
 				"args": {"commit": "$commit", "mode": "hard"}
-			},
+			}
 		]
 	},
     {
-        "caption": "创建补丁",
-        "args": { "from": "$last_selected_commit", "commit": "$commit" },
+        "caption": "Crear parche",
+        "args": { "from": "$last_selected_commit", "commit": "$commit" }
     },
 	{ "caption": "-", "id": "end" }
 ]

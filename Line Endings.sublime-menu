@@ -2,19 +2,19 @@
   {
     "command": "set_line_ending",
     "args": { "type": "windows" },
-    "caption": "Windows 行结束符 (CRLF)",
+    "caption": "Finales de línea Windows (CRLF)",
     "checkbox": true
   },
   {
     "command": "set_line_ending",
     "args": { "type": "unix" },
-    "caption": "Unix 行结束符 (LF)",
+    "caption": "Finales de línea Unix (LF)",
     "checkbox": true
   },
   {
     "command": "set_line_ending",
     "args": { "type": "cr" },
-    "caption": "Mac OS 9 行结束符 (CR)",
+    "caption": "Finales de línea Mac OS 9 (CR)",
     "checkbox": true
   }
 ]

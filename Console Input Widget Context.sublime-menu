@@ -1,34 +1,34 @@
 [
 	{
-		"caption": "剪切",
+		"caption": "Cortar",
 		"command": "cut"
 	},
 	{
-		"caption": "复制",
+		"caption": "Copiar",
 		"command": "copy"
 	},
 	{
-		"caption": "粘贴",
+		"caption": "Pegar",
 		"command": "paste"
 	},
 	{
 		"caption": "-"
 	},
 	{
-		"caption": "全选",
+		"caption": "Seleccionar todo",
 		"command": "select_all"
 	},
 	{
 		"caption": "-"
 	},
 	{
-		"caption": "使用 Python 3.8",
+		"caption": "Usar Python 3.8",
 		"command": "console_python_version", 
 		"args": {"version": "3.8"}, 
 		"checkbox": true
 	},
 	{
-		"caption": "使用 Python 3.3",
+		"caption": "Usar Python 3.3",
 		"command": "console_python_version", 
 		"args": {"version": "3.3"}, 
 		"checkbox": true

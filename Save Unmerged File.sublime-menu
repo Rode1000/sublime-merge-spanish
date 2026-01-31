@@ -1,6 +1,6 @@
 [
 	{
-		"caption": "保存但不暂存",
+		"caption": "Guardar sin preparar (Stage)",
 		"command": "save_without_staging",
 		"args": {}
 	},

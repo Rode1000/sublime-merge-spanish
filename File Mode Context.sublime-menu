@@ -1,17 +1,17 @@
 [
 	{
 		"command": "copy",
-		"caption": "复制"
+		"caption": "Copiar"
 	},
 	{
 		"command": "select_all",
-		"caption": "全选"
+		"caption": "Seleccionar todo"
 	},
 	{ 
 		"caption": "-"
 	},
 	{
 		"command": "toggle_ignore_diff_whitespace",
-		"caption": "切换忽略空白差异"
-	},
+		"caption": "Alternar ignorar espacios en blanco"
+	}
 ]

@@ -2,6 +2,6 @@
     {
         "command": "stage_all_unmerged",
         "args": { "filtered": true },
-        "caption": "暂存所有未合并的文件"
-    },
+        "caption": "Preparar todos los archivos no fusionados (Stage)"
+    }
 ]

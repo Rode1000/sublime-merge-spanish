@@ -1,12 +1,12 @@
 [
 	{
-		"caption": "使用我们的版本解决",
+		"caption": "Resolver usando la versión local (ours)",
 		"command": "resolve_merge_conflict",
 		"args": {"path": "$path", "mode": "ours"}
 	},
 	{
-		"caption": "使用他们的版本解决",
+		"caption": "Resolver usando la versión remota (theirs)",
 		"command": "resolve_merge_conflict",
 		"args": {"path": "$path", "mode": "theirs"}
-	},
+	}
 ]

@@ -2,69 +2,69 @@
   {
     "command": "toggle_setting",
     "args": { "setting": "translate_tabs_to_spaces" },
-    "caption": "使用空格缩进",
+    "caption": "Indentar con espacios",
     "checkbox": true
   },
   { "caption": "-" },
   {
     "command": "set_setting",
     "args": { "setting": "tab_size", "value": 1 },
-    "caption": "制表符宽度: 1",
+    "caption": "Tamaño de tabulación: 1",
     "checkbox": true
   },
   {
     "command": "set_setting",
     "args": { "setting": "tab_size", "value": 2 },
-    "caption": "制表符宽度: 2",
+    "caption": "Tamaño de tabulación: 2",
     "checkbox": true
   },
   {
     "command": "set_setting",
     "args": { "setting": "tab_size", "value": 3 },
-    "caption": "制表符宽度: 3",
+    "caption": "Tamaño de tabulación: 3",
     "checkbox": true
   },
   {
     "command": "set_setting",
     "args": { "setting": "tab_size", "value": 4 },
-    "caption": "制表符宽度: 4",
+    "caption": "Tamaño de tabulación: 4",
     "checkbox": true
   },
   {
     "command": "set_setting",
     "args": { "setting": "tab_size", "value": 5 },
-    "caption": "制表符宽度: 5",
+    "caption": "Tamaño de tabulación: 5",
     "checkbox": true
   },
   {
     "command": "set_setting",
     "args": { "setting": "tab_size", "value": 6 },
-    "caption": "制表符宽度: 6",
+    "caption": "Tamaño de tabulación: 6",
     "checkbox": true
   },
   {
     "command": "set_setting",
     "args": { "setting": "tab_size", "value": 7 },
-    "caption": "制表符宽度: 7",
+    "caption": "Tamaño de tabulación: 7",
     "checkbox": true
   },
   {
     "command": "set_setting",
     "args": { "setting": "tab_size", "value": 8 },
-    "caption": "制表符宽度: 8",
+    "caption": "Tamaño de tabulación: 8",
     "checkbox": true
   },
   { "caption": "-" },
-  { "command": "detect_indentation", "caption": "从缓冲区猜测设置" },
+  { "command": "detect_indentation", "caption": "Detectar indentación del contenido" },
   { "caption": "-" },
   {
     "command": "expand_tabs",
-    "caption": "将缩进转换为空格",
+    "caption": "Convertir indentación a espacios",
     "args": { "set_translate_tabs": true }
   },
   {
     "command": "unexpand_tabs",
-    "caption": "将缩进转换为制表符",
+    "caption": "Convertir indentación a tabulaciones",
     "args": { "set_translate_tabs": true }
   }
 ]

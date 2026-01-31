@@ -2,11 +2,11 @@
     {
         "command": "stage_all_untracked",
         "args": { "filtered": true },
-        "caption": "暂存所有未跟踪的文件"
+        "caption": "Preparar todos los archivos no seguidos (Stage)"
     },
     {
         "command": "clean_working_dir",
         "args": { "filtered": true },
-        "caption": "清理工作目录"
-    },
+        "caption": "Limpiar directorio de trabajo"
+    }
 ]

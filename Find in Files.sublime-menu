@@ -1,34 +1,34 @@
 [
-	{ "command": "clear_location", "caption": "清除" },
-	{ "command": "add_directory", "caption": "添加文件夹" },
+	{ "command": "clear_location", "caption": "Limpiar" },
+	{ "command": "add_directory", "caption": "Añadir carpeta" },
 	{
 		"command": "add_where_snippet",
 		"args": {"snippet": "*.${0:txt}"},
-		"caption": "添加包含过滤器"
+		"caption": "Añadir filtro de inclusión"
 	},
 	{
 		"command": "add_where_snippet",
 		"args": {"snippet": "-*.${0:txt}"},
-		"caption": "添加排除过滤器"
+		"caption": "Añadir filtro de exclusión"
 	},
 	{
 		"command": "add_where_snippet",
 		"args": {"snippet": "<project filters>"},
-		"caption": "添加项目过滤器"
+		"caption": "Añadir filtro de proyecto"
 	},
 	{
 		"command": "add_where_snippet",
 		"args": {"snippet": "<open folders>"},
-		"caption": "添加打开的文件夹"
+		"caption": "Añadir carpetas abiertas"
 	},
 	{
 		"command": "add_where_snippet",
 		"args": {"snippet": "<open files>"},
-		"caption": "添加打开的文件"
+		"caption": "Añadir archivos abiertos"
 	},
 	{
 		"command": "add_where_snippet",
 		"args": {"snippet": "<current file>"},
-		"caption": "添加当前文件"
+		"caption": "Añadir archivo actual"
 	}
 ]

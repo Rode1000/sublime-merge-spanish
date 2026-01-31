@@ -1,6 +1,6 @@
 [
 	{
 		"command": "unstage_selected_files",
-		"caption": "取消暂存选定文件"
+		"caption": "Quitar archivos seleccionados del índice"
 	}
 ]

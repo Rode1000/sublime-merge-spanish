@@ -1,6 +1,6 @@
 [
     {
-        "caption": "创建分支…",
+        "caption": "Crear rama…",
         "command": "show_command_palette", 
         "args": {
             "command": "create_branch",
@@ -8,27 +8,27 @@
         }
     },
     {
-        "caption": "复制 '$branch'",
+        "caption": "Copiar '$branch'",
         "command": "copy_to_clipboard",
         "args": { "text": "$branch" }
     },
     {
-        "caption": "隐藏引用",
+        "caption": "Ocultar referencia",
         "command": "hide_ref", 
         "args": { "ref": "$ref" }
     },
     {
-        "caption": "显示引用",
+        "caption": "Mostrar referencia",
         "command": "show_ref", 
         "args": { "ref": "$ref" }
     },
     {
-        "caption": "隐藏除此之外的所有引用",
+        "caption": "Ocultar todas las demás referencias",
         "command": "hide_all_refs_except", 
         "args": { "ref": "$ref" }
     },
     {
-        "caption": "显示所有引用",
+        "caption": "Mostrar todas las referencias",
         "command": "show_all_refs", 
         "args": { "ref": "$ref" }
     }

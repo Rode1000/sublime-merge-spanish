@@ -1,10 +1,10 @@
 [
 	{
-		"caption": "打开上下文链接",
+		"caption": "Abrir enlace de contexto",
 		"command": "open_context_url"
 	},
 	{
-		"caption": "转到定义",
+		"caption": "Ir a la definición",
 		"command": "goto_definition"
 	},
 	{
@@ -12,11 +12,11 @@
 		"id": "diff"
 	},
 	{
-		"caption": "切换内联差异",
+		"caption": "Alternar diff en línea",
 		"command": "toggle_inline_diff"
 	},
 	{
-		"caption": "还原差异块",
+		"caption": "Revertir fragmento (hunk)",
 		"command": "revert_hunk"
 	},
 	{
@@ -24,15 +24,15 @@
 		"id": "clipboard"
 	},
 	{
-		"caption": "剪切",
+		"caption": "Cortar",
 		"command": "cut"
 	},
 	{
-		"caption": "复制",
+		"caption": "Copiar",
 		"command": "copy"
 	},
 	{
-		"caption": "粘贴",
+		"caption": "Pegar",
 		"command": "paste"
 	},
 	{
@@ -40,7 +40,7 @@
 		"id": "selection"
 	},
 	{
-		"caption": "全选",
+		"caption": "Seleccionar todo",
 		"command": "select_all"
 	},
 	{
@@ -48,19 +48,19 @@
 		"id": "repo_commands"
 	},
 	{
-		"caption": "打开 Git 仓库…",
+		"caption": "Abrir repositorio Git…",
 		"command": "sublime_merge_open_repo"
 	},
 	{
-		"caption": "文件历史…",
+		"caption": "Historial del archivo…",
 		"command": "sublime_merge_file_history"
 	},
 	{
-		"caption": "行历史…",
+		"caption": "Historial de la línea…",
 		"command": "sublime_merge_line_history"
 	},
 	{
-		"caption": "文件责任追溯…",
+		"caption": "Ver autoría del archivo (blame)…",
 		"command": "sublime_merge_blame_file"
 	},
 	{
@@ -68,20 +68,20 @@
 		"id": "file"
 	},
 	{
-		"caption": "在浏览器中打开",
+		"caption": "Abrir en el navegador",
 		"command": "open_in_browser"
 	},
 	{
-		"caption": "打开包含文件夹…",
+		"caption": "Abrir carpeta contenedora…",
 		"command": "open_dir",
 		"args": {"dir": "$file_path", "file": "$file_name"}
 	},
 	{
-		"caption": "复制文件路径",
+		"caption": "Copiar ruta del archivo",
 		"command": "copy_path"
 	},
 	{
-		"caption": "在侧边栏中显示",
+		"caption": "Mostrar en la barra lateral",
 		"command": "reveal_in_side_bar"
 	},
 	{

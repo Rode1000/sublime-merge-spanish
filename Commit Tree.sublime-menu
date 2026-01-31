@@ -1,6 +1,6 @@
 [
     {
-        "caption": "复制树状结构",
+        "caption": "Copiar estructura en árbol",
         "command": "copy_to_clipboard",
         "args": {"text": "$tree"}
     }

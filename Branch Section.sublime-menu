@@ -1,10 +1,10 @@
 [
 	{
-		"caption": "创建分支…",
+		"caption": "Crear rama…",
 		"command": "show_command_palette", 
 		"args":
 		{
 			"command": "create_branch"
 		}
-	},
+	}
 ]

@@ -1,32 +1,32 @@
 [
     {
-        "caption": "导航到上下文提交",
+        "caption": "Navegar al commit de contexto",
         "command": "navigate_to_context_commit"
     },
     {
-        "caption": "打开上下文链接",
+        "caption": "Abrir enlace de contexto",
         "command": "open_context_url"
     },
     {
         "caption": "-"
     },
     {
-        "caption": "剪切",
+        "caption": "Cortar",
         "command": "cut"
     },
     {
-        "caption": "复制",
+        "caption": "Copiar",
         "command": "copy"
     },
     {
-        "caption": "粘贴",
+        "caption": "Pegar",
         "command": "paste"
     },
     {
         "caption": "-"
     },
     {
-        "caption": "全选",
+        "caption": "Seleccionar todo",
         "command": "select_all"
     }
 ]

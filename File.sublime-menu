@@ -1,11 +1,11 @@
 [
 	{
-		"caption": "文件历史",
+		"caption": "Historial del archivo",
 		"command": "search",
 		"args": { "query": "file:\"$path\"" }
 	},
 	{
-		"caption": "责任追溯",
+		"caption": "Autoría (blame)",
 		"command": "blame",
 		"args": { "path": "$path" }
 	},
@@ -14,17 +14,17 @@
 		"id": "separator1"
 	},
 	{
-		"caption": "在编辑器中打开…",
+		"caption": "Abrir en el editor…",
 		"command": "open_in_editor",
 		"args": { "path": "$working_dir/$path", "line": "$line" }
 	},
 	{
-		"caption": "打开包含文件夹…",
+		"caption": "Abrir carpeta contenedora…",
 		"command": "open_dir",
 		"args": { "path": "$working_dir/$path" }
 	},
 	{
-		"caption": "复制文件路径",
+		"caption": "Copiar ruta del archivo",
 		"command": "copy_to_clipboard",
 		"args": { "text": "$path" }
 	}

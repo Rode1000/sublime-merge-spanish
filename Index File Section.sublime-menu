@@ -2,11 +2,11 @@
     {
         "command": "unstage_all",
         "args": { "filtered": true },
-        "caption": "取消暂存所有更改"
+        "caption": "Quitar todos los cambios del índice"
     },
     {
         "command": "create_patch",
         "args": { "diff_against_index": true },
-        "caption": "基于索引创建补丁"
-    },
+        "caption": "Crear parche desde el índice"
+    }
 ]
