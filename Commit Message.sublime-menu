@@ -11,6 +11,17 @@
         "caption": "-"
     },
     {
+        "command": "ignore_word",
+        "caption": "Ignorar palabra"
+    },
+    {
+        "command": "add_word",
+        "caption": "Añadir al diccionario"
+    },
+    {
+        "caption": "-"
+    },
+    {
         "caption": "Cortar",
         "command": "cut"
     },

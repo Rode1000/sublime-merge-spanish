@@ -1,0 +1,36 @@
+[
+	{
+		"caption": "Pull (Traer)",
+		"command": "pull"
+	},
+	{
+		"caption": "Pull (Traer) --ff-only",
+		"command": "pull",
+		"args": {"options": ["--ff-only"]}
+	},
+	{
+		"caption": "Pull (Traer) --rebase",
+		"command": "pull",
+		"args": {"rebase": true}
+	},
+	{
+		"caption": "Pull (Traer) --rebase --autostash",
+		"command": "pull",
+		"args": {"rebase": true, "autostash": true}
+	},
+	{ "caption": "-" },
+	{
+		"caption": "Fetch (Buscar cambios)",
+		"command": "fetch"
+	},
+	{
+		"caption": "Fetch (Buscar cambios) --tags",
+		"command": "fetch",
+		"args": {"tags": true}
+	},
+	{
+		"caption": "Fetch (Buscar cambios) --prune",
+		"command": "fetch",
+		"args": {"prune": true}
+	}
+]

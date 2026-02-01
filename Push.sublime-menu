@@ -1,0 +1,21 @@
+[
+	{
+		"caption": "Push (Enviar)",
+		"command": "push"
+	},
+	{
+		"caption": "Push (Enviar) --force",
+		"command": "push",
+		"args": {"force": true}
+	},
+	{
+		"caption": "Push (Enviar) --force-with-lease",
+		"command": "push",
+		"args": {"force_with_lease": true}
+	},
+	{
+		"caption": "Push (Enviar) --no-verify",
+		"command": "push",
+		"args": {"no_verify": true}
+	}
+]
